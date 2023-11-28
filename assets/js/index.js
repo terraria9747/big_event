@@ -32,7 +32,7 @@ function getUserInfo() {
                 return layui.layer.msg("获取信息失败, 请重试");
             };
 
-            layui.layer.msg("获取信息成功 ~");
+            // layui.layer.msg("获取信息成功 ~");
             // 信息成功获取后
             // 渲染用户头像
             renderAvatar(res.data)
